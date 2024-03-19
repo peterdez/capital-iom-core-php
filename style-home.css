@@ -37,6 +37,9 @@ background: radial-gradient(circle, rgba(49,44,60,1) 0%, rgba(27,21,41,1) 57%);
 .nav-link:hover {
     color: #bb8b41;
 }
+.nav-link:focus {
+    color: #cccccc;
+}
 .navbar-brand {
     color: #ffffff;
 }
