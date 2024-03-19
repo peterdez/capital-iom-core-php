@@ -15,6 +15,15 @@
     <link rel="stylesheet" href="style-home.css"> 
 </head>
   <body>
+  <div id="myOverlay" class="overlay">
+  <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+  <div class="overlay-content">
+    <form action="/action_page.php">
+      <input type="text" class="rounded-start" placeholder="Search.." name="search">
+      <button type="submit" class="rounded-end"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
   <?php include_once 'navigation_home.php'; ?>
   <section id="hero_section" class="">
     <div class="container">
@@ -134,5 +143,14 @@
   </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-  </body>
+<script>
+function openSearch() {
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function closeSearch() {
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>  
+</body>
 </html>
