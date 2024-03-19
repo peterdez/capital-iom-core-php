@@ -10,7 +10,7 @@
     <!--link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen" /-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- admin custom CSS -->
-    <link href="<?php echo $home_url . "libs/css/customer.css" ?>" rel="stylesheet" />
+    <link href="<?php echo $home_url . "style.css" ?>" rel="stylesheet" />
 </head>
 <body>
     <!-- include the navigation bar -->
