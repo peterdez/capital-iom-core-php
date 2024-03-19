@@ -37,10 +37,10 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true){
       <a class="nav-link <?php echo $page_title=="Index" ? "class='active'" : ""; ?>" aria-current="page" href="<?php echo $home_url; ?>">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link <?php echo $page_title=="Login" ? "class='active'" : ""; ?>" href="<?php echo $home_url; ?>">Login</a>
+      <a class="nav-link <?php echo $page_title=="Login" ? "class='active'" : ""; ?>" href="<?php echo $home_url  . '/login.php'; ?>">Login</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link <?php echo $page_title=="Register" ? "class='active'" : ""; ?>" href="<?php echo $home_url; ?>">Register</a>
+      <a class="nav-link <?php echo $page_title=="Register" ? "class='active'" : ""; ?>" href="<?php echo $home_url . '/register.php'; ?>">Register</a>
     </li>
   </ul>
       <!--form class="d-flex" role="search">
