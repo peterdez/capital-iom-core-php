@@ -8,7 +8,8 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Investment Services</a>
+          <a class="nav-link" href="#">Investment Services</a>
+          <!--a class="nav-link active" aria-current="page" href="#">Investment Services</a-->
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Banking</a>
@@ -17,7 +18,10 @@
           <a class="nav-link" href="#">Company</a>
         </li>
         <li class="nav-item">
-          <a class="btn btn-primary rounded-pill" href="login.php">Login</a>
+          <a class="nav-link text-primary" href="login.php">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-primary rounded-pill" href="#">Get started</a>
         </li>
       </ul>
       <!--form class="d-flex" role="search">

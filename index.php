@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Capital-iom</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -111,9 +111,9 @@
            <div class="footer-box">
            <h6 class="text-white fw-semibold">Resources</h6>
             <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="">Investment<br>Platform</a></li>
-            <li class="list-group-item"><a href="">Investment<br>Platform</a></li>
-            <li class="list-group-item"><a href="">Investment<br>Platform</a></li>
+            <li class="list-group-item"><a href="">Investment<br>Platform<br>Resources</a></li>
+            <li class="list-group-item"><a href="">Investment<br>Management<br>Resources</a></li>
+            <li class="list-group-item"><a href="">Capital International<br>Bank Resources</a></li>
             </ul>
            </div>
         </div>

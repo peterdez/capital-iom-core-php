@@ -2,9 +2,9 @@ body{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
+    font-size: 14px;
     font-style: normal;
     background-color: #1b1529;
-
 }
 .header .navbar {
     background-color: #1b1529 !important;
@@ -15,6 +15,20 @@ body{
     background: rgb(49,44,60);
 background: radial-gradient(circle, rgba(49,44,60,1) 0%, rgba(27,21,41,1) 57%);
 }
+
+.header .nav-link {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header .btn-primary {
+    margin-left: 5px; 
+    font-weight: 600;
+    padding: 10px 15px;
+    background-color: #bb8b41;
+    border-color: #bb8b41;  
+}
+
 .nav-link {
     color: #ffffff;
     font-weight: 500;
@@ -56,7 +70,6 @@ background: radial-gradient(circle, rgba(49,44,60,1) 0%, rgba(27,21,41,1) 57%);
     text-decoration: none;
     color: #ffffff;
     opacity: 0.75;
-    font-size: 14px;
 }
 .list-group-item a:hover {
     opacity: 1;
@@ -65,7 +78,6 @@ background: radial-gradient(circle, rgba(49,44,60,1) 0%, rgba(27,21,41,1) 57%);
 #footer_description {
     color: #ffffff;
     opacity: 0.75;
-    font-size: 14px;
 }
 #footer_description a {
     color: #bb8b41;
@@ -73,15 +85,22 @@ background: radial-gradient(circle, rgba(49,44,60,1) 0%, rgba(27,21,41,1) 57%);
     text-decoration: none;
 }
 
+.footer-box {
+    margin: 0 0 0 20px;
+}
+
 #cookies_pref a {
     color: #bb8b41;
     text-decoration: none;
 }
 
+.text-primary {
+    color: #bb8b41 !important;
+}
+
 .btn-primary{
     background-color: #bb8b41;
-    border-color: #bb8b41;
-    
+    border-color: #bb8b41;  
 }
 
 .btn-primary:hover{
@@ -90,7 +109,23 @@ background: radial-gradient(circle, rgba(49,44,60,1) 0%, rgba(27,21,41,1) 57%);
     
 }
 
+#hero_section .box {
+    color: #2f2f40 !important;
+}
+
+#hero_section .box h5{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+#hero_section .box p{
+    font-weight: 500;
+}
+
 #hero_section .box .btn-primary{
+    font-size: 14px;
+    padding: 10px 15px;
+    font-weight: 600;
     border-radius: 30px;
 }
 
@@ -103,6 +138,6 @@ footer .btn-secondary {
     border-radius: 50px;
 }
 
-#hero_section .box {
-  color: #2f2f40 !important;
+@media only screen and (min-width: 1400px) {
+    .container {max-width: 1248px};
 }
