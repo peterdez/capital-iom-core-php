@@ -13,9 +13,10 @@ echo "<div class='col-md-12'>";
     $action = isset($_GET['action']) ? $_GET['action'] : "";
     // if login was successful
     if($action=='login_success'){
-        echo "<div class='alert alert-info'>";
-            echo "<strong>Hi " . $_SESSION['firstname'] . ", welcome back!</strong>";
-        echo "</div>";
+            echo "<div class='alert alert-success alert-dismissible fade show' role='alert'>";
+              echo "<strong>Hi " . $_SESSION['firstname'] . ",  welcome back!</strong>";
+               echo "<button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>";
+                 echo "</div>";
     }
     // if user is already logged in, shown when user tries to access the login page
     else if($action=='already_logged_in'){
