@@ -105,13 +105,20 @@ background: radial-gradient(circle, rgba(49,44,60,1) 0%, rgba(27,21,41,1) 57%);
 }
 
 .btn-primary:hover{
-    background-color: #bb8b41;
-    border-color: #bb8b41;
+    background-color: #966f34;
+    border-color: #966f34;
     
 }
 
 #hero_section .box {
     color: #2f2f40 !important;
+    cursor: pointer;
+    transition: margin-top 0.25s ease-out 50ms;
+}
+
+#hero_section .box:hover {
+    color: #2f2f40 !important;
+    margin-top: -10px;
 }
 
 #hero_section .box h5{
