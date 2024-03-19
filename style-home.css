@@ -88,6 +88,20 @@ body{
     background-color: #1b1529 !important;
 }
 
+.header .dropdown-menu {
+    background-color: #2c263a;
+    border: 2px solid #393542;
+    color: #ffffff;
+}
+
+.header .dropdown-menu li a{
+    color: #ffffff;
+}
+.header .dropdown-menu li a:hover, .header .dropdown-menu li a:focus{
+    background: #bb8b41;
+    color: #ffffff;
+}
+
 #hero_section {
     padding-top: 100px;
     background: rgb(49,44,60);

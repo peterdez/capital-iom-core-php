@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Capital-iom</title>
+    <title>Capital International Group</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -29,7 +29,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center my-5 text-white">
-                <h1 class="title lora-fnt">Invest with us. Bank with us</h1>
+                <h1 class="title lora-fnt">Invest with us. Bank with us.</h1>
                 <h2 class="subtitle lora-fnt">Grow with us.</h2>
                 <p class="w-50 m-auto fs-5">Explore the ultimate suite of financial services designed to simplify asset 
                     and cash management for businesses, intermediaries and high net worth individuals.</p>
