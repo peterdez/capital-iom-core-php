@@ -77,7 +77,7 @@ div#blueimp-gallery div.modal{ overflow: visible; }
     display: block;
 }
 .profile-img{
-    width: 96px;
+    /*width: 96px;*/
     height: 96px;
     margin: 0 auto 10px;
     display: block;
