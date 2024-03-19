@@ -16,7 +16,8 @@ else if(isset($page_title) && ($page_title=="Login" || $page_title=="Sign Up")){
     // if user not yet logged in, redirect to login page
     if(isset($_SESSION['access_level']) && $_SESSION['access_level']=="Customer"){
         header("Location: {$home_url}profile.php?action=already_logged_in");
-    }
+    }  
+    header("Location: {$home_url}profile.php?action=already_logged_in");
 }
 else{
     // no problem, stay on current page
