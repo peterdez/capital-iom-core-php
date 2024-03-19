@@ -96,8 +96,8 @@
             <h6 class="text-white fw-semibold">Services</h6>
             <ul class="list-group list-group-flush">
             <li class="list-group-item"><a href="">Investment<br>Platform</a></li>
-            <li class="list-group-item"><a href="">Investment<br>Platform</a></li>
-            <li class="list-group-item"><a href="">Investment<br>Platform</a></li>
+            <li class="list-group-item"><a href="">Investment<br>Management</a></li>
+            <li class="list-group-item"><a href="">Corporate<br>Banking</a></li>
             </ul>
            </div>
            <div class="footer-box">
@@ -126,7 +126,7 @@
                 <p id="copyright">© Capital International Group, 2024</p>
             </div>
             <div id="cookies_pref" class="col-md-6 text-end">
-                <p><a href="">Cookie Preferences</a></p>
+                <p><a href="" class="fw-semibold">Cookie Preferences</a></p>
             </div>
         </div>
     </div>

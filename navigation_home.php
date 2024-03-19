@@ -14,8 +14,16 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Banking</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Company</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Company
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">About us</a></li>
+            <li><a class="dropdown-item" href="#">Blog</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Careers</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link text-primary" href="login.php">Login</a>
