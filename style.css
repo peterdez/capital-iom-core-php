@@ -6,6 +6,16 @@
   font-size: 14px;
   font-weight: 600;
 }
+.btn-primary{
+    background-color: #bb8b41;
+    border-color: #bb8b41;  
+}
+
+.btn-primary:hover{
+    background-color: #966f34;
+    border-color: #966f34;
+    
+}
 .nav-link {
     color: #ffffff;
     font-weight: 500;

@@ -21,6 +21,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true){
           <?php echo $_SESSION['firstname']; ?>
           </a>
           <ul class="dropdown-menu">
+            <li><a href="<?php echo $home_url; ?>edit_profile.php" class="dropdown-item">Settings</a></li>
             <li><a href="<?php echo $home_url; ?>logout.php" class="dropdown-item">Logout</a></li>
             <!--<li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
