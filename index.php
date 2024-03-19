@@ -28,7 +28,7 @@
             <div class="col-md-12 boxes">
                 <div class="row gx-4">
                     <div class="col-md-4">
-                    <div class="p-4 box bg-white rounded mb-2">
+                    <div class="p-4 box bg-white rounded-3 mb-2">
                         <h5>Investment Platform</h5>
                         <p>
                         Use our international investment platform to place your own 
@@ -38,7 +38,7 @@
                     </div>
                     </div>
                     <div class="col-md-4">
-                    <div class="p-4 box bg-white rounded mb-2">
+                    <div class="p-4 box bg-white rounded-3 mb-2">
                         <h5>Investment Management</h5>
                         <p>Let us manage your investments. Select the optimal discretionary strategy to meet you or 
                             your client's long-term financial goals.</p>
@@ -46,7 +46,7 @@
                     </div>
                     </div>
                     <div class="col-md-4">
-                    <div class="p-4 box bg-white rounded mb-2">
+                    <div class="p-4 box bg-white rounded-3 mb-2">
                         <h5>Banking</h5>
                         <p>With competitive rates of interest and fast account opening, we serve corporates, 
                             trusts and high net worth individuals.</p>
