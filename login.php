@@ -41,7 +41,7 @@ if ($email_exists && password_verify($_POST['password'], $user->password)){
     else{
         header("Location: {$home_url}index.php?action=login_success");
     }*/
-    header("Location: {$home_url}index.php?action=login_success");
+    header("Location: {$home_url}profile.php?action=login_success");
 }
 // if username does not exist or password is wrong
 else{

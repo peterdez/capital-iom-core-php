@@ -17,10 +17,7 @@
           <a class="nav-link" href="#">Company</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-gold" href="#">Login</a>
-        </li>
-        <li class="nav-item">
-          <a class="btn btn-primary rounded-pill" href="#">Login</a>
+          <a class="btn btn-primary rounded-pill" href="login.php">Login</a>
         </li>
       </ul>
       <!--form class="d-flex" role="search">
